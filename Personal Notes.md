@@ -56,3 +56,14 @@ Possible missing packages error during meson build, and the resp installation re
 	sudo apt install libsdl2-dev
 	sudo apt install hwdata
 	sudo apt install libxmu-dev libxres-dev libxrandr-dev libxinerama-dev libxcursor-dev libx11-dev libxxf86vm-dev
+
+
+
+
+Vid recovery:
+
+WITH INTERNET CONNECTION:
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install testdisk
+sudo photorec
