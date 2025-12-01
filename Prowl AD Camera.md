@@ -1,5 +1,5 @@
 
-[[Communication Protocol]]
+[[Tonbo Communication Protocol]]
 
 [[EO Camera Commands]]
 

@@ -6,7 +6,6 @@
       {
         "id": "44471fa1eca8bdfb",
         "type": "tabs",
-        "dimension": 39.756367663344406,
         "children": [
           {
             "id": "a62b086ffc238aed",
@@ -20,27 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Tasks List"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8db9ffe365a68233",
-        "type": "tabs",
-        "dimension": 60.243632336655594,
-        "children": [
-          {
-            "id": "e81342f2f5cecc63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Meeting notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Meeting notes"
             }
           }
         ]
@@ -100,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "83b11b14457bbae8",
@@ -189,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,12 +182,19 @@
   },
   "active": "a62b086ffc238aed",
   "lastOpenFiles": [
+    "Tata (ULRS).md",
+    "Daily Tasks.md",
+    "Dataset.md",
+    "DDS.md",
     "Meeting notes.md",
+    "Communication Network.md",
+    "Tonbo Communication Protocol.md",
     "Tasks List.md",
+    "Pasted image 20251201100634.png",
+    "Pasted image 20251201100520.png",
+    "Untitled.base",
     "Ego-motion.md",
     "Information, mail notes.md",
-    "DDS.md",
-    "Dataset.md",
     "Terminal commands.md",
     "SAHI.md",
     "Untitled 2.base",
@@ -222,9 +206,6 @@
     "Pasted image 20251016165349.png",
     "Jetson, PX4 notes.md",
     "Tonbo model.md",
-    "Tata (ULRS).md",
-    "Untitled.base",
-    "Communication Protocol.md",
     "Prowl AD Camera.md",
     "EO Camera Commands.md",
     "Pasted image 20251016171412.png",

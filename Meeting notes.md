@@ -53,3 +53,18 @@ How to explain in sprint meeting:
 P0 - Communication architecture
 p1 - Network link budget
 P2 - data labelling
+
+
+
+
+Values for each data types
+	How much badnwidth needed for each link, per sensor, per ai node, 
+
+Latency analysis:
+	Given the maximum distance, between each hops, from sensor-ain
+	60KM from aiNode to GCS
+
+
+From last week action items
+Summary:
+	Bullet points, layered
