@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "44471fa1eca8bdfb",
+        "id": "c7e5bca271302201",
         "type": "tabs",
         "children": [
           {
-            "id": "a62b086ffc238aed",
+            "id": "bedf558fd5dafde1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Communication Network.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Communication Network"
+            }
+          },
+          {
+            "id": "dabbccd8820e4b2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Communication layer Protocols.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Communication layer Protocols"
+            }
+          },
+          {
+            "id": "8864780f8cdf45c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +49,8 @@
               "title": "Tasks List"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -166,53 +195,55 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 207.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a62b086ffc238aed",
+  "active": "8864780f8cdf45c1",
   "lastOpenFiles": [
-    "Tata (ULRS).md",
-    "Daily Tasks.md",
-    "Dataset.md",
-    "DDS.md",
+    "Communication layer Protocols.md",
+    "System Setup.md",
     "Meeting notes.md",
+    "Daily Tasks.md",
     "Communication Network.md",
-    "Tonbo Communication Protocol.md",
+    "Dataset.md",
+    "SAHI.md",
     "Tasks List.md",
+    "Drone Model.md",
+    "Ego-motion.md",
+    "Jetson Pipeline.md",
+    "Jetson, PX4 notes.md",
+    "Personal Notes.md",
+    "DDS.md",
+    "Information, mail notes.md",
+    "Prowl AD Camera.md",
+    "Tonbo model.md",
+    "Tonbo Communication Protocol.md",
+    "Terminal commands.md",
+    "Tata (ULRS).md",
+    "EO Camera Commands.md",
+    "Untitled.canvas",
+    "Untitled.base",
     "Pasted image 20251201100634.png",
     "Pasted image 20251201100520.png",
-    "Untitled.base",
-    "Ego-motion.md",
-    "Information, mail notes.md",
-    "Terminal commands.md",
-    "SAHI.md",
     "Untitled 2.base",
-    "Untitled.canvas",
-    "Personal Notes.md",
     "Untitled 1.base",
     "FIELD TRIAL CHECK LIST.md",
-    "Jetson Pipeline.md",
     "Pasted image 20251016165349.png",
-    "Jetson, PX4 notes.md",
-    "Tonbo model.md",
-    "Prowl AD Camera.md",
-    "EO Camera Commands.md",
     "Pasted image 20251016171412.png",
     "Pasted image 20251016170634.png",
     "Pasted image 20251016170403.png",
     "Pasted image 20251016165422.png",
-    "Drone Model.md",
     "results (1).csv",
     "results_Adam.csv",
     "Welcome.md",

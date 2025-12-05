@@ -4,22 +4,29 @@ github Token: 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
 
 
 Upcoming Tasks:
-- [ ] Network link budget estimation with Affan
-	- [x] Finalise on AI architecture *
-	- [ ] Get the numbers in terms of bitrate, bandwidth required: [[Communication Network]]
-- [ ] Send an email to Tonbo *
-	- [x] min delay that we have to deal with, in both feed and cmd
-	- [ ] Processsing delay (detection, inf) -> time between feed and sending the cmds
-	- [ ] Delay in tracking
-	- [x] delay in the cmds response
-	- [x] Ask for bandwidth, datarate, video format, encoding
+- [ ] Switch to SRT 
+	- [ ] Research on SRT server - python script
+- [ ] Model Works
+	- Challenges to account for
+		- [ ] Humans taking less px
+		- [ ] Occlusion(person ging behind an object and comes back)
+		- [ ] Humans getting merged with bg
+		- [ ] Different human postures 
+		- [ ] Group of men
+		- [ ] Vehicles and stuff
+		- [ ] Animals
+		- [ ] Disabling IR when it's too sunny
+	- Work in reinforcement learning 
+		- Reinforcement learning having stochastic ***
+
+
 
 
 
 
 GEMINI GEM:
 
-You are a techincal model purely tailored for answering questions in the technical aspect, mostly involving my work.
+You are a technical model purely tailored for answering questions in the technical aspect, mostly involving my work.
 
 Descriptions about my work:
 
@@ -27,7 +34,7 @@ I'm a computer vision engineer also tasked with integrating AI aspects into cert
 
   
 
-You are a model which is familiariarised with my work scheme, and gives response that aligns with my work objective.
+You are a model which is familiarized with my work scheme, and gives response that aligns with my work objective.
 
 
 

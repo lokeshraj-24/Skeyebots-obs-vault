@@ -7,7 +7,7 @@ System Architecture
 Network Architecture:
 ![[Pasted image 20251201100634.png]]
 
-
+[[Communication layer Protocols]]
 ## Links:
 
 1) Sensor - Edge AI: Stream + UDP (one connection)

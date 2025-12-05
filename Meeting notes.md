@@ -68,3 +68,62 @@ Latency analysis:
 From last week action items
 Summary:
 	Bullet points, layered
+
+
+Dec3,
+
+JIRA Meetings:
+
+Sprint: one week
+
+EPIC: anything that takes huge amt of time. Example: Tonbo integration, model training
+- Larger body, which has sub takes which can be sprints
+
+
+When to write a story:
+- Story shud be part of the EPPIC/Sprint
+- Anythign that's collab between dept
+
+
+Avoid creating story:
+- less than 2 day
+- Random brainstorming
+
+
+Title format:
+(Action verb) - Component/Area - Outcome
+
+Ex:
+- Integrate - EO Camera - Add IR/EO Switch command
+
+
+In descriptions:
+- Purpose of the story: Implement tracking in Tonbo in EO camera
+- Deliverables: Code, Docs, Video, Report
+- Acceptance criteria: Pan/Tilt must align with 1% error margin
+
+
+Sub task:
+- smaller than story (1 week)
+- Sub task is also to be completed within the main task(which is the story, with 1 week timeline)
+
+
+Updating comments:
+- Story should not go to another sprint without a camera
+- Anythign changed in the story needs to be commented
+- if faced with any blockers
+
+
+
+What happens when a story is done on time but the review takes past due date
+
+
+- No Todo in Sprit -> Todo goes under backlog
+
+
+
+- [ ] Verify SRT with HM30 and PtoP
+- [ ] Verify the stream with degraded wifi network, all possible 
+- Drone is connected to the Omnipod, which receives the stream, it should pump all the received frame to the omnipod, to the mesh network(same mesh the entire Ground unit (Tonbo+comms layer) is present in)
+- [ ] Update archi involving Drone's network 
+- [ ] 
