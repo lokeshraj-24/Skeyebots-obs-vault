@@ -122,8 +122,8 @@ What happens when a story is done on time but the review takes past due date
 
 
 
-- [ ] Verify SRT with HM30 and PtoP
-- [ ] Verify the stream with degraded wifi network, all possible 
+- [x] Verify SRT with HM30 and PtoP
+- [x] Verify the stream with degraded wifi network, all possible
 - Drone is connected to the Omnipod, which receives the stream, it should pump all the received frame to the omnipod, to the mesh network(same mesh the entire Ground unit (Tonbo+comms layer) is present in)
 - [ ] Update archi involving Drone's network 
-- [ ] 
+- [x] 

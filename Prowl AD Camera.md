@@ -1,7 +1,7 @@
 
-[[Tonbo Communication Protocol]]
+related: :   [[Tonbo Communication Protocol]]
 
-[[EO Camera Commands]]
+related: :   [[EO Camera Commands]]
 
 The communication protocol is built to accept and output three different communication frame
 formats:

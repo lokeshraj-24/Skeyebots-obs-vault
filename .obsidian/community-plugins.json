@@ -1,3 +1,6 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "dataview",
+  "graph-link-types",
+  "obsidian-plugin-todo"
 ]

@@ -58,6 +58,9 @@ To make it bulletproof:
 
 SRT pipeline code:
 - no need to create a speerate server and moint the feed into it, SRT is more close to UDP than RTSP
+- key-int-max -> determines how often IDR-keyframes are sent, master frames which are used to recover a feed. A value of 15 with FPS 30 means, 1 frame is sent every 0.5sec (kInt/FPS)
+	- Drawbacks: takes more bitrate
+- Latency = determines the wait period of srt to regain a lost package before giving up
 
 
 
@@ -88,3 +91,51 @@ gst_out = (
     f"srtsink uri=srt://:9000 mode=listener latency=500"
 )
 ```
+
+
+
+To play the video with no latency:
+```
+ffplay -fflags nobuffer -flags low_delay -framedrop -strict experimental srt://192.168.144.112:9000
+```
+
+For Ground unit comms layer:
+- Two options to send feed from Edge AI to Comms layer:
+	- Create a seperate UDP port for each Edge node, to the comms layer
+	- Have one single port through which all 5 cameras are streaming the video
+
+
+
+Client side terminal gst code:
+
+```
+gst-launch-1.0 -v   srtsrc uri=[srt://192.168.144.112:9000](srt://192.168.144.112:9000) wait-for-connection=false !   tsdemux name=demux   demux. ! queue leaky=downstream ! h264parse ! avdec_h264 max-threads=4 !   videoconvert n-threads=4 !   autovideosink sync=false
+
+
+gst-launch-1.0 -v   srtsrc uri=srt://192.168.144.112:9000 latency=1000 wait-for-connection=false !   tsdemux name=demux   demux. ! queue leaky=downstream ! h264parse ! avdec_h264 max-threads=4 !   videoconvert n-threads=4 !   autovideosink sync=false
+```
+
+```
+source: "gst-pipeline: " + 
+		"srtsrc uri=\"srt://192.168.144.112:9000?latency=1000\" ! " + 
+		"tsdemux ! " + 
+		"h264parse ! " + 
+		"avdec_h264 ! " + 
+		"videoconvert ! " + 
+		"qmlvideosink sync=false"
+```
+
+
+
+Possible routes to check:
+- [ ] Integrate Gst pipeline directly into the main.py file, which integrates qml file
+	- [ ] Gst pipeline directly pushes the frame into the qml app
+	- [ ] a local opencv capture setup in the main.py file, which captures the srt feed (tested and verified), and pushes the numpy frames to the qml app
+
+
+
+VideoOutput {
+    id: videoOutput
+    objectName: "videoOutput" // <--- This MUST match the Python findChild string
+    anchors.fill: parent
+}

@@ -4,20 +4,22 @@ github Token: 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
 
 
 Upcoming Tasks:
-- [ ] Switch to SRT 
-	- [ ] Research on SRT server - python script
+- [x] Switch to SRT
+	- [x] Research on SRT server - python script
 - [ ] Model Works
 	- Challenges to account for
-		- [ ] Humans taking less px
-		- [ ] Occlusion(person ging behind an object and comes back)
-		- [ ] Humans getting merged with bg
-		- [ ] Different human postures 
-		- [ ] Group of men
-		- [ ] Vehicles and stuff
-		- [ ] Animals
-		- [ ] Disabling IR when it's too sunny
+		-  Humans taking less px
+		-  Occlusion(person ging behind an object and comes back)
+		-  Humans getting merged with bg
+		-  Different human postures 
+		-  Group of men
+		-  Vehicles and stuff
+		-  Animals
+		-  Disabling IR when it's too sunny
 	- Work in reinforcement learning 
 		- Reinforcement learning having stochastic ***
+- [ ] Drone's Perception
+- [ ] Corroboration between multiple camera
 
 
 

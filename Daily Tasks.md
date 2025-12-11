@@ -7,6 +7,16 @@ Dec 1:
 
 
 Action List in new ubuntu:
-- pytorch
-- Ultralytics
-- opencv with Gstreamer supportl
+- ~~pytorch~~
+- ~~Ultralytics~~
+- ~~opencv with Gstreamer supportl~~
+
+
+
+
+- [x] SRT with package lost
+- [x] SRT with package loss + latency + inference
+- [x] Comms layer architecture update
+
+- [x] Talk with Deep Singh
+- [x] SRT into QML
