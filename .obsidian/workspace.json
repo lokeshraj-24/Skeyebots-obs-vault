@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bedf558fd5dafde1",
+            "id": "90181778aaaf8efd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Tasks List"
-            }
-          },
-          {
-            "id": "90181778aaaf8efd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Drone's Perception and Tracking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Drone's Perception and Tracking"
             }
           }
         ]
@@ -118,8 +104,8 @@
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo"
+              "icon": "lucide-ghost",
+              "title": "online.larslockefeer.obsidian-plugin-todo"
             }
           },
           {
@@ -184,12 +170,42 @@
               "icon": "lucide-list",
               "title": "Outline of Drone's Perception and Tracking"
             }
+          },
+          {
+            "id": "ccf93679c5a6b504",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "online.larslockefeer.obsidian-plugin-todo"
+            }
+          },
+          {
+            "id": "e814a14078580042",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "online.larslockefeer.obsidian-plugin-todo"
+            }
+          },
+          {
+            "id": "098faca90579dbfc",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 303.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,25 +219,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bedf558fd5dafde1",
+  "active": "90181778aaaf8efd",
   "lastOpenFiles": [
-    "Communication layer Protocols.md",
     "Daily Tasks.md",
-    "Dataset.md",
-    "Tonbo model.md",
-    "SAHI.md",
     "Tasks List.md",
-    "Ego-motion.md",
+    "Personal Notes.md",
+    "System Setup.md",
     "Drone's Perception and Tracking.md",
     "Terminal commands.md",
     "Communication Network.md",
     "Meeting notes.md",
+    "Communication layer Protocols.md",
     "Drone Model.md",
+    "Dataset.md",
+    "Tonbo model.md",
+    "SAHI.md",
+    "Ego-motion.md",
     "Prowl AD Camera.md",
-    "Personal Notes.md",
     "Jetson, PX4 notes.md",
     "Jetson Pipeline.md",
-    "System Setup.md",
     "DDS.md",
     "Information, mail notes.md",
     "Tonbo Communication Protocol.md",

@@ -67,3 +67,13 @@ sudo add-apt-repository universe
 sudo apt update
 sudo apt install testdisk
 sudo photorec
+
+
+Installing i3, tiling manager:
+
+
+```
+sudo apt purge i3 i3status i3lock suckless-tools rofi picom feh nitrogen lxappearance
+sudo apt autoremove
+
+```

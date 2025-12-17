@@ -126,4 +126,21 @@ What happens when a story is done on time but the review takes past due date
 - [x] Verify the stream with degraded wifi network, all possible
 - Drone is connected to the Omnipod, which receives the stream, it should pump all the received frame to the omnipod, to the mesh network(same mesh the entire Ground unit (Tonbo+comms layer) is present in)
 - [ ] Update archi involving Drone's network 
-- [x] 
+
+
+
+
+
+in FLightControllers.qml:
+
+when user clicks Track:
+- publishes track message
+- publishes to topic: /drone/cmd/track
+
+
+In behavioour_planner.py:
+
+line 596-598:
+- track branch - to uncomment
+
+

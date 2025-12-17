@@ -16,10 +16,26 @@ Upcoming Tasks:
 		-  Vehicles and stuff
 		-  Animals
 		-  Disabling IR when it's too sunny
+		- v 
 	- Work in reinforcement learning 
 		- Reinforcement learning having stochastic ***
-- [ ] Drone's Perception
+- [ ] Drone's Perception Pipeline
+	- [ ] Setup codebase in my laptop
+	- [ ] Develop and verify SRT stream in 2x2 frame
+	- [ ] Implement Tracking in mds_planner
 - [ ] Corroboration between multiple camera
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -59,8 +75,12 @@ You are a model which is familiarized with my work scheme, and gives response th
 
 
 
+P0 - SRT 
+ P1 - setup infra (by wed)
+ P2 - tracking and tesing in seim
+ P3 - Drone test
 
-
+remove redundant task - striekthrough, with resp relatives
 
 
 
