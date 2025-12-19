@@ -20,3 +20,7 @@ Action List in new ubuntu:
 
 - [x] Talk with Deep Singh
 - [x] SRT into QML
+
+
+
+

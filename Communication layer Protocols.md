@@ -139,3 +139,22 @@ VideoOutput {
     objectName: "videoOutput" // <--- This MUST match the Python findChild string
     anchors.fill: parent
 }
+
+
+test_pipeline for srt:
+
+```
+test_pipeline_str = (
+"videotestsrc ! "
+"videoconvert ! "
+"video/x-raw,format=RGBA ! "
+"appsink name=mysink emit-signals=True sync=False max-buffers=1 drop=True"
+)
+```
+
+
+Packages needed to add Gstreamer pipeline in qml code:
+
+```
+sudo apt install libqt5multimedia5-plugins gstreamer1.0-qt5
+```
