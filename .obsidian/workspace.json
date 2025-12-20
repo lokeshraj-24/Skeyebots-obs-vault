@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks List.md",
+                "file": "Communication layer Protocols.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tasks List"
+              "title": "Communication layer Protocols"
             }
           }
         ]
@@ -221,13 +221,13 @@
   },
   "active": "90181778aaaf8efd",
   "lastOpenFiles": [
+    "Tasks List.md",
+    "Personal Notes.md",
     "System Setup.md",
     "Daily Tasks.md",
     "Communication layer Protocols.md",
     "Dataset.md",
     "Jetson Pipeline.md",
-    "Personal Notes.md",
-    "Tasks List.md",
     "Drone's Perception and Tracking.md",
     "Terminal commands.md",
     "Communication Network.md",
