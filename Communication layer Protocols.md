@@ -158,3 +158,9 @@ Packages needed to add Gstreamer pipeline in qml code:
 ```
 sudo apt install libqt5multimedia5-plugins gstreamer1.0-qt5
 ```
+
+
+
+TRex VLR
+
+Avenger
