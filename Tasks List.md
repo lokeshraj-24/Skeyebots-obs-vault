@@ -20,15 +20,19 @@ Upcoming Tasks:
 	- Work in reinforcement learning 
 		- Reinforcement learning having stochastic ***
 - [ ] Drone's Perception Pipeline
-	- [ ] Setup codebase in my laptop
-	- [ ] Develop and verify SRT stream in 2x2 frame
+	- [x] Setup codebase in my laptop
+	- [x] Develop and verify SRT stream in 2x2 frame
 	- [ ] Implement Tracking in mds_planner
 - [ ] Corroboration between multiple camera
 
 
 
 
-
+Ship & vessel detection:
+- fishing boats vs naval vs container vs small boats, speed boats
+- Data gathering, creating database based on detection
+- Bird detection, down up or up down
+- Identification of each birds
 
 
 

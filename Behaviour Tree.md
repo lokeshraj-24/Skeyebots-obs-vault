@@ -58,8 +58,3 @@ Doubts:
 
 
 
-Ship & vessel detection:
-- fishing boats vs naval vs container vs small boats, speed boats
-- Data gathering, creating database based on detection
-- Bird detection, down up or up down
-- Identification of each birds
