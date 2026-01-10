@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "Tasks List"
             }
+          },
+          {
+            "id": "41793e63fc2ac826",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ego-motion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ego-motion"
+            }
           }
         ]
       }
@@ -241,14 +255,21 @@
   },
   "active": "a8b846d3af1d571e",
   "lastOpenFiles": [
-    "Behaviour Tree.md",
-    "Tasks List.md",
-    "().md",
-    "Daily Tasks.md",
-    "Harbour Detection.md",
+    "Tonbo Work.md",
+    "Ego-motion.md",
     "Communication layer Protocols.md",
+    "Untitled.md",
     "Tonbo Communication Protocol.md",
     "Tonbo model.md",
+    "Daily Tasks.md",
+    "Dataset.md",
+    "Drone Model.md",
+    "Behaviour Tree.md",
+    "().md",
+    "Harbour Detection.md",
+    "Untitled.base",
+    "Untitled 1.base",
+    "Tasks List.md",
     "Terminal commands.md",
     "System Setup.md",
     "SAHI.md",
@@ -256,24 +277,17 @@
     "Jetson, PX4 notes.md",
     "Meeting notes.md",
     "Jetson Pipeline.md",
-    "Drone Model.md",
     "Drone's Perception and Tracking.md",
-    "Ego-motion.md",
     "Communication Network.md",
     "General Notes.md",
     "Pasted image 20251016165349.png",
     "Personal Notes.md",
-    "Dataset.md",
     "DDS.md",
     "Information, mail notes.md",
-    "Tata (ULRS).md",
-    "EO Camera Commands.md",
     "Untitled.canvas",
-    "Untitled.base",
     "Pasted image 20251201100634.png",
     "Pasted image 20251201100520.png",
     "Untitled 2.base",
-    "Untitled 1.base",
     "Pasted image 20251016171412.png",
     "Pasted image 20251016170634.png",
     "Pasted image 20251016170403.png",
