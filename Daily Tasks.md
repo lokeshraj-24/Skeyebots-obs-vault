@@ -24,3 +24,12 @@ Action List in new ubuntu:
 
 
 
+
+
+
+
+CV Engineer:
+- Expertise in Detection and Tracking models
+- Experience working with streaming protocols
+- Experience working with embedding devices
+- Good understanding of ROS, and similar communication protocols
