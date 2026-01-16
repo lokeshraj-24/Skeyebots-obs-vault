@@ -88,3 +88,17 @@ def get_result_callback(self, future):
 
 
 #### Action client in BT
+
+
+FromConstant 
+- Premade class, acts like a wrapper of ActionClient that fits as a BT node
+- FromConstant is a subclass of ActionClient
+- This particularly only used here for toggling an Action server
+- It doesn't send any particular goal, rather an empty goal, which just acts as a toggle that tells the Action server to start the actoin(Tracking, landing, rtl)
+
+FromConstant has functions like initialise(), update(), terminate(), under the hood which is automatically handled by the class
+- initiailse() - runs when the node is ticked for the first time
+- update() - runs when the node is ticked, it automatically checks if the server is still working on the action, and if it does, then it sends RUNNING, else SUCCEED/FAILURE
+	- has access t goal_handle variable when an action starts. So to get status check on the running process, it just checks that and updates the tree accordingly. 
+- terminate() - called when the task is SUCCEED/FAILURE. it also automatically calls cancel_callback in the action server
+
