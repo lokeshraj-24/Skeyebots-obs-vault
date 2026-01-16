@@ -34,3 +34,27 @@ aider --model ollama_chat/qwen2.5-coder:14b --map-tokens 1024
 		- repo map- high level structuer, the model will just look at function names, and not in detail
 	- /read - Another fail proof arguements to make sure aider doesnt edit the code and only reads the added files
 
+
+
+To mount another os:
+
+FInd its partition using :
+```
+lsblk -f
+or 
+sudo fdisk -l
+```
+
+Then, for mounting:
+
+```
+sudo mkdir -p /mnt/ubuntu24
+sudo mount /dev/sdXn /mnt/ubuntu24
+for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /mnt/ubuntu24$i; done
+```
+
+
+To get into the terminal:
+```
+sudo chroot /mnt/ubuntu24
+```
