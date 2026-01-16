@@ -1,6 +1,6 @@
 
 github Token: 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
-
+Easy_write: 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
 
 
 Upcoming Tasks:
