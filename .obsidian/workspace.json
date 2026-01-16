@@ -242,7 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 567.5
+    "width": 396.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,7 +256,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "169f1492dc9baeb7",
+  "active": "ea95235855f1e1fe",
   "lastOpenFiles": [
     "Tonbo Work.md",
     "AI Node.md",
