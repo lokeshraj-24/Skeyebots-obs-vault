@@ -23,6 +23,7 @@ Upcoming Tasks:
 	- [x] Setup codebase in my laptop
 	- [x] Develop and verify SRT stream in 2x2 frame
 	- [ ] Implement Tracking in mds_planner
+		- [ ] Get Sim's camera feed in the GUI for testing
 - [ ] Corroboration between multiple camera
 
 
