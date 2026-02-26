@@ -4,81 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c7e5bca271302201",
+        "id": "96ae63f55b429451",
         "type": "tabs",
         "children": [
           {
-            "id": "a8b846d3af1d571e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ego-motion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ego-motion"
-            }
-          },
-          {
-            "id": "96df985091850140",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tonbo Work.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tonbo Work"
-            }
-          },
-          {
-            "id": "169f1492dc9baeb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tasks List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tasks List"
-            }
-          },
-          {
-            "id": "41793e63fc2ac826",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tonbo Communication Protocol.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tonbo Communication Protocol"
-            }
-          },
-          {
-            "id": "8ab86e8e8a58121d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI Node.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI Node"
-            }
-          },
-          {
-            "id": "126dd7d310811a9e",
+            "id": "2ae560f3fec63ec0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,7 +22,7 @@
             }
           },
           {
-            "id": "3adf1d4381d7419b",
+            "id": "2bb15e8c427cd398",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 263.5,
+    "collapsed": true
   },
   "right": {
     "id": "83b11b14457bbae8",
@@ -270,8 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -285,37 +215,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3adf1d4381d7419b",
+  "active": "ea95235855f1e1fe",
   "lastOpenFiles": [
-    "Communication layer Protocols.md",
-    "Actions.md",
     "Behaviour Tree.md",
-    "Terminal commands.md",
-    "Tasks List.md",
-    "Tonbo Work.md",
-    "AI Node.md",
-    "Tonbo Communication Protocol.md",
-    "Tracking.md",
-    "Ego-motion.md",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Daily Tasks.md",
-    "Dataset.md",
-    "Kalman filter.md",
-    "Tonbo model.md",
-    "Drone Model.md",
     "Drone's Perception and Tracking.md",
-    "Harbour Detection.md",
-    "Jetson Pipeline.md",
-    "Jetson, PX4 notes.md",
-    "Meeting notes.md",
+    "Tasks List.md",
+    "Terminal commands.md",
+    "Dataset.md",
+    "Daily Tasks.md",
+    "Communication Network.md",
+    "Communication layer Protocols.md",
+    "AI Node.md",
+    "Simulation.md",
     "System Setup.md",
-    "().md",
+    "ROS Actions.md",
     "SAHI.md",
     "Prowl AD Camera.md",
-    "Communication Network.md",
+    "Licensing.md",
+    "Kalman filter.md",
+    "Jetson Pipeline.md",
+    "Harbour Detection.md",
     "General Notes.md",
+    "Ego-motion.md",
+    "MDS.md",
+    "Meeting notes.md",
+    "Tonbo Work.md",
+    "Tonbo model.md",
+    "Jetson, PX4 notes.md",
+    "Pasted image 20260216154040.png",
+    "Tonbo Communication Protocol.md",
     "Pasted image 20251016165349.png",
+    "Untitled 1.base",
+    "Untitled.base",
     "Untitled.canvas",
     "Pasted image 20251201100634.png",
     "Pasted image 20251201100520.png",

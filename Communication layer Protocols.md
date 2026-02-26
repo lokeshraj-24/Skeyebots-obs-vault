@@ -110,9 +110,12 @@ Client side terminal gst code:
 
 ```
 gst-launch-1.0 -v   srtsrc uri=[srt://192.168.144.112:9000](srt://192.168.144.112:9000) wait-for-connection=false !   tsdemux name=demux   demux. ! queue leaky=downstream ! h264parse ! avdec_h264 max-threads=4 !   videoconvert n-threads=4 !   autovideosink sync=false
+```
 
 
-gst-launch-1.0 -v   srtsrc uri=srt://192.168.144.112:9000 latency=1000 wait-for-connection=false !   tsdemux name=demux   demux. ! queue leaky=downstream ! h264parse ! avdec_h264 max-threads=4 !   videoconvert n-threads=4 !   autovideosink sync=false
+```
+
+gst-launch-1.0 -v   srtsrc uri=srt://192.168.1.16:5000 latency=100 wait-for-connection=false !   tsdemux name=demux   demux. ! queue leaky=downstream ! h264parse ! avdec_h264 max-threads=4 !   videoconvert n-threads=4 !   autovideosink sync=false
 ```
 
 ```
@@ -159,3 +162,75 @@ Packages needed to add Gstreamer pipeline in qml code:
 sudo apt install libqt5multimedia5-plugins gstreamer1.0-qt5
 ```
 
+
+
+In camera.qml, vaapisink - no module found error:
+
+```
+sudo apt update && sudo apt install gstreamer1.0-vaapi
+```
+
+
+
+
+Gst server pipeline for streamign frames along with metadata:
+
+
+```python
+self.pipeline_str = (
+	f"mpegtsmux name=mux ! "
+	f"srtsink uri=srt://:{port}?mode=listener wait-for-connection=false sync=false "
+	# Video Path: AppSrc -> Encode -> Mux
+	f"appsrc name=vid_src format=time is-live=true ! "
+	f"video/x-raw,format=BGR,width={self.width},height={self.height},framerate={self.fps}/1 ! "
+	f"videoconvert ! "
+	f"x264enc tune=zerolatency speed-preset=ultrafast bitrate=2000 key-int-max=15 ! "
+	f"queue ! mux. "
+	
+	# Data Path: AppSrc -> Mux (Treating JSON as KLV data)
+	f"appsrc name=data_src format=time is-live=true ! "
+	f"meta/x-klv ! queue ! mux. "
+	)
+```
+
+
+Gst client pipeline for receiving the frame+mdata stream:
+
+```python
+self.pipeline_str = (
+	f"srtsrc uri={uri} ! "
+	f"tsdemux name=demux "
+	
+	# Path 1: Video
+	f"demux. ! queue ! h264parse config-interval=-1 ! "
+	f"avdec_h264 ! "
+	f"videoconvert ! video/x-raw,format=BGR ! "
+	f"appsink name=vid_sink emit-signals=true sync=false drop=true "
+	
+	# Path 2: Data (Catch-all for any metadata)
+	f"demux. ! queue ! "
+	f"appsink name=data_sink emit-signals=true sync=false "
+	)
+```
+
+
+Gst pipeline for relay node, - gets mdata and relays the stream to udpport
+
+```python
+
+##NOTE: 
+self.pipeline_str = (
+	f"srtsrc uri={uri} ! "
+	f"tsdemux name=demux "
+	
+	# Path 1: Video
+	f"demux. ! queue ! " 
+	# f"h264parse config-interval=-1 ! "
+	# f"rtph264pay config-interval=1 pt=96 ! "
+	f"udpsink host=127.0.0.1 port={self.local_port} sync=false "
+	
+	# Path 2: Data (Catch-all for any metadata)
+	f"demux. ! queue ! "
+	f"appsink name=data_sink emit-signals=true sync=false "
+)
+```

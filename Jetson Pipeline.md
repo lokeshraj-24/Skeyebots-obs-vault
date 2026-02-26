@@ -1,4 +1,7 @@
 
+
+`Jetson Version: 5.1.4`
+
 Use the SIYI gimbal Ethernet→RJ45 cable
 # Verify it worked
 

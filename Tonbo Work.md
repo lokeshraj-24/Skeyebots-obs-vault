@@ -44,7 +44,7 @@ gst-launch-1.0 -v srtsrc uri="srt://192.168.3.213:8555?mode=caller&latency=50" !
 
 
 
-Issues faced:
+### Issues faced:
 
 - Srt integration into the pipeline
 	- Just using the cv2.VideoWriter did not work well, it backstabbed me and ended up fucking the entire pipeline
